@@ -38,8 +38,7 @@ body {
   font-size: 1.5rem;
 }
 
-.text > a:any-link {
-  color: #fff;
+.dotted {
   text-transform: uppercase;
   text-decoration: underline dotted rgba(255, 255, 255, 0.5) 0.05em;
   text-underline-offset: 0.25em;
