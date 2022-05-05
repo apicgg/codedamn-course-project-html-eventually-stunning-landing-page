@@ -4,42 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/def47af47b.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
     <title>codedamn Project</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <!-- start writing your code -->
-    <div class="container">
-      <header class="header">
-        <h1>Eventually</h1>
-        <p class="text">
-          A simple template for telling the world when you'll launch <br />
-          your next big thing. Brought to you by
-          <span class="dotted">html5up.</span>
-        </p>
-      </header>
-
-      <form class="form">
-        <input class="form-input" type="email" placeholder="Email Address" />
-        <button class="button">Sign Up</button>
-      </form>
-
-      <footer class="footer">
-        <div>
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-          <i class="fa fa-github" aria-hidden="true"></i>
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-        </div>
-
-        <div>
-          <p>&copy; Untitled. | Credits: Unsplash + HTML5UP</p>
-        </div>
-      </footer>
+    <div class="intro">
+      <h1 class="title">Eventually</h1>
+      <p class="text">
+        A simple template for telling when you'll launch your next big thing.
+        Brought to you but <span class="dotted">HTML5 UP</span>
+      </p>
     </div>
+
+    <form class="form">
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="input"
+        placeholder="Email Address:"
+      />
+      <input type="button" value="Sign Up" class="input submit" />
+      <!-- <p class="btm-text"></p> -->
+    </form>
+
+    <footer class="footer">
+      <div class="top">
+        <ul class="social">
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="far fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <p>
+          &copy; Untitled. | &nbsp;Credits:
+          <span class="dotted">Unsplash</span> +
+          <span class="dotted">HTML5 UP</span>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
